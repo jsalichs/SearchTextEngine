@@ -9,7 +9,7 @@ The solution is a single-thread Java application that consists of the following 
 
 ## Build and run the project
 
-### Generate jar from the command console: 
+### Generate jar from the command console 
 Open a command console and navigate to the location of the pom.xml file and execute the command:
 ```
 mvn install
