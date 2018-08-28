@@ -2,7 +2,7 @@
 
 ## Introduction 
 Command line driven search engine project using all the text files available in a given directory.
-The search take the words given on the command prompt and return a list of the top 10 (max) matching filenames in rank order, giving the rank score against each match.
+The search takes the words given on the command prompt and returns a list of the top 10 (max) matching filenames in rank order, giving the rank score against each match.
 The rank score is 100% if a file contains all the words, 0% if it contains none of the words and between 0% and 100% if it contains only some of the words. 
 
 ## Getting Started
