@@ -32,7 +32,7 @@ There is a folder with 15 files with Lorem Ipsum (filler text) to run tests. To 
 ```
 java -jar searcher-1.0.jar ../src/main/resources
 ```
-There are 3 tests available using the "testingFile_1.txt" file (existing text, no-existing text and percentage of coincidence). To run the tests, navigate to the root project directory and execute the command:
+There are 3 tests available using the *testingFile_1.txt* file (existing text, no-existing text and percentage of coincidence). To run the tests, navigate to the root project directory and execute the command:
 ```
 mvn test
 ```
