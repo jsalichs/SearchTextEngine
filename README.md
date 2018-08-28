@@ -20,7 +20,7 @@ mvn install
 ```
 The jar file will be generated in the *target* folder.
 
-### Run the program from the command console:
+### Run the program from the command console
 It is assumed that Java is installed and the JAVA_HOME environment variable is defined to launch the jar from the command console. To run the program, you need to open a console and navigate to the *target* folder where the jar file is located and write the following command:
 ```
 java -jar  searcher-1.0.jar <files path>
