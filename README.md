@@ -25,7 +25,7 @@ It is assumed that Java is installed and the JAVA_HOME environment variable is d
 ```
 java -jar  searcher-1.0.jar <files path>
 ```
-Where <files path> is the parameter indicating the directory with the text files.  
+Where *<files path>* is the parameter indicating the directory with the text files.  
 
 ## Tests
 There is a folder with 15 files with Lorem Ipsum (filler text) to run tests. To use this folder navigate with a console to the *target* folder with the jar and execute the command:
