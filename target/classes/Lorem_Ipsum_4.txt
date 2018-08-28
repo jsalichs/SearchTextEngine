@@ -1,8 +1,0 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Sed condimentum blandit mollis. Aenean odio ipsum, ullamcorper et rutrum sed, 
-condimentum quis purus. Nam sit amet euismod sapien. 
-aaa bb ccc dd Nam pharetra, ex in imperdiet volutpat, ante urna mollis elit, a 
-sodales orci orci vel quam. Aenean facilisis dignissim urna, at imperdiet magna aliquam et. 
-Curabitur tempor orci risus, blandit venenatis tortor congue nec. Interdum et malesuada fames 
-ac ante ipsum primis in faucibus. Proin tempus fringilla dolor, 
-vehicula accumsan sapien ullamcorper interdum. Nam mollis quam ante.

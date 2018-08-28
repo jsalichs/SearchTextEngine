@@ -10,7 +10,7 @@ public class MainTest {
 	String testDir = "./src/main/resources";
 
 	/**
-	 * Test a existing text
+	 * Test an existing text
 	 */
 	@Test
 	public void test1() {

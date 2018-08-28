@@ -20,7 +20,7 @@ public class FileMatchLevel implements Comparable<FileMatchLevel> {
 		this.match = match;
 	}
 
-	// To sort a object array by its "match"
+	// To sort an object array by its "match"
 	public int compareTo(FileMatchLevel compareFileMatchLevel) {
 
 		double compareMatch = ((FileMatchLevel) compareFileMatchLevel).getMatch();

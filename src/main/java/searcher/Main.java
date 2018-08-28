@@ -102,7 +102,7 @@ public class Main {
 
 			double matchCounter = 0;
 
-			// Divide "words" param into pieces and build a array with them.
+			// Divide "words" parameter into pieces and build an array with them.
 			String[] wordsArr = words.split("\\s+");
 
 			// Check file for each word

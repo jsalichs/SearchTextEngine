@@ -1,34 +1,41 @@
 # Text search engine
 
 ## Introduction 
-Command line driven text search engine project to read all the text files in the given directory. The search take the words given on the command prompt and return a list of the top 10 (max) matching filenames in rank order, giving the rank score against each match.
+Command line driven text search engine project to read all the text files in a given directory.
+The search take the words given on the command prompt and return a list of the top 10 (max) matching filenames in rank order, giving the rank score against each match.
 The rank score is 100% if a file contains all the words, 0% if it contains none of the words and between 0% and 100% if it contains only some of the words. 
 
 ## Getting Started
-The solution is a single-thread Java application that consists of the following elements. Main class serves as entry point to the application and checks that the input parameter (folder with text files) is given and is not empty.
+The solution is a single-thread Java application that consists of the following elements:
+The *Main* class with the *main* method serves as entry point to the application, checking that the input parameter (folder with text files) is given and is not empty.
+The methods *checkFiles* and *findMatchLevel* in the *Main* class, evaluate the searched words and assign a match level percentage to each file.
+The *FileMatchLevel* class with the *compareTo* method sort each file by the match in descending order. The class *MainTest* with the methods *test1*, *test2* and *test3* evaluate the performance of the project.
 
 ## Build and run the project
 
 ### Generate jar from the command console 
-Open a command console and navigate to the location of the pom.xml file and execute the command:
+Open a command console, navigate to the location of the pom.xml file and execute the command:
 ```
 mvn install
 ```
-The jar file will be generated at the "target" folder.
+The jar file will be generated in the *target* folder.
 
 ### Run the program from the command console:
-To launch the jar from the command console, it is assumed that Java is installed and the JAVA_HOME environment variable is defined. To run the program, you need to open a console and navigate to the folder where the jar file is located and write the following command:
+It is assumed that Java is installed and the JAVA_HOME environment variable is defined to launch the jar from the command console. To run the program, you need to open a console and navigate to the *target* folder where the jar file is located and write the following command:
 ```
 java -jar  searcher-1.0.jar <files path>
 ```
 Where <files path> is the parameter indicating the directory with the text files.  
 
 ## Tests
-There is a folder with 15 files with Lorem Ipsum (filler text) to run tests. To use this folder navigate with a console to the folder containing the jar and write the command:
+There is a folder with 15 files with Lorem Ipsum (filler text) to run tests. To use this folder navigate with a console to the *target* folder with the jar and execute the command:
 ```
 java -jar searcher-1.0.jar ../src/main/resources
 ```
-To run the 3 unitary tests available with Eclipse, navigate to the /src/test/java/search folder with the Package Explorer and right-click on the MainTest.java file. After select the "Run As" option and "JUnit Test".
+There are 3 tests available using the "testingFile_1.txt" file (existing text, no-existing text and percentage of coincidence). To run the tests, navigate to the root project directory and execute the command:
+```
+mvn test
+```
 
 ## Author
 * **Juan Salichs San José**
